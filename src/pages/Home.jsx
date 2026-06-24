@@ -74,7 +74,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="col-span-2 glassmorphism-card p-6 rounded-2xl flex items-center gap-6 mt-4 border-white/5">
+            {/* <div className="col-span-2 glassmorphism-card p-6 rounded-2xl flex items-center gap-6 mt-4 border-white/5">
               <img
                 src="/assets/rimon.png"
                 alt="Stdio BD Developer"
@@ -85,7 +85,7 @@ const Home = () => {
                 <h4 className="text-sm font-bold text-white">Premium Quality Assurance</h4>
                 <p className="text-xs text-white/40">Custom-coded frameworks. No bloated template builders.</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Text details */}
