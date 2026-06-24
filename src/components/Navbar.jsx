@@ -91,12 +91,15 @@ const Navbar = () => {
 
         {/* Mobile Toggle Menu */}
         <div className="md:hidden flex items-center gap-4">
-          <Link
-            to="/contact"
-            className="bg-primary-green hover:bg-neon-green text-dark-bg text-xs font-bold px-4 py-2 rounded-md transition-colors duration-300"
+          <a
+            href="https://www.linkedin.com/in/stdio-bd-3310a0419"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 bg-primary-green hover:bg-neon-green text-dark-bg text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-md transition-all duration-300 shadow-md hover:shadow-green-500/20 border border-primary-green hover:border-neon-green glow-green-sm group"
           >
-            Intake
-          </Link>
+            <span>Lets go</span>
+            <FiSend className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white hover:text-neon-green transition-colors duration-300 focus:outline-none"
