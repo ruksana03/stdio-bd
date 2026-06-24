@@ -8,14 +8,14 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { FiExternalLink, FiEye } from 'react-icons/fi';
+import { FiArrowUpRight } from 'react-icons/fi';
 
 const PortfolioSlider = () => {
   const projects = [
     {
       title: 'Mans Premium apperience',
       category: 'E-commerch',
-      image: '/assets/florafit.png',
+      image: '/assets/project-images/flora-fit.png',
       url: 'https://florafit.netlify.app/',
       description: 'A clean footwear brand website with responsive product sections, stylish visual presentation, and simple conversion-focused layout.',
       tech: ['HTML5', 'CSS3', 'Bootstrap']
@@ -23,7 +23,7 @@ const PortfolioSlider = () => {
     {
       title: 'JustHome Real Estate',
       category: 'Business',
-      image: '/assets/business.png',
+      image: '/assets/project-images/justhome.png',
       url: 'https://justhomereal.netlify.app/',
       description: 'A real estate business website designed to present property listings, trusted service details, and lead-focused contact actions.',
       tech: ['HTML5', 'CSS3', 'Bootstrap']
@@ -31,7 +31,7 @@ const PortfolioSlider = () => {
     {
       title: 'Portfolio Website',
       category: 'Portfolio',
-      image: '/assets/siamport.png',
+      image: '/assets/project-images/portfolio.png',
       url: 'https://fitarsiamportfolio.netlify.app/',
       description: 'A personal developer portfolio showcasing skills, project work, contact details, and a polished responsive presentation.',
       tech: ['HTML5', 'CSS3', 'Bootstrap']
@@ -39,7 +39,7 @@ const PortfolioSlider = () => {
     {
       title: 'NuriGlow Store BD',
       category: 'E-Commerce',
-      image: '/assets/e commerce.png',
+      image: '/assets/project-images/nuriglow.png',
       url: 'https://nuriglow-store-bd.web.app/',
       description: 'A React-powered online store for beauty and skincare products with product browsing, storefront UI, and shopping-focused flow.',
       tech: ['React.js', 'Firebase', 'CSS']
@@ -48,7 +48,7 @@ const PortfolioSlider = () => {
     {
       title: 'InnovateEd',
       category: 'Educational website ',
-      image: '/assets/premium.png',
+      image: '/assets/project-images/innovated-bd.png',
       url: 'https://innavated.web.app/',
       description: 'A modern education platform interface with React, Redux state flow, responsive Tailwind styling, and structured learning content.',
       tech: ['React.js', 'Redux', 'Tailwind CSS']
@@ -56,15 +56,15 @@ const PortfolioSlider = () => {
     {
       title: 'Bigspring Business Platform',
       category: 'Business',
-      image: '/assets/businesspack.png',
+      image: '/assets/project-images/bigspring-business.png',
       url: 'https://lucent-biscuit-173f0a.netlify.app/',
       description: 'A Next.js business platform built for corporate presentation, service storytelling, and polished marketing page performance.',
       tech: ['Next.js', 'Tailwind CSS']
     },
     {
-      title: 'BUBT academy',
+      title: 'BUBT academia',
       category: 'Educational',
-      image: '/assets/figmatohtml.png',
+      image: '/assets/project-images/bubt-academia.png',
       url: 'https://fitarsiam377.github.io/BUBT-Academia-Project-Prototype-/',
       description: 'A Figma-inspired UI implementation converted into responsive HTML, Tailwind CSS, and JavaScript sections.',
       tech: ['HTML5', 'CSS3', 'Tailwind CSS', 'JavaScript', 'Figma']
@@ -72,16 +72,24 @@ const PortfolioSlider = () => {
     {
       title: 'CyberGuard',
       category: 'Business',
-      image: '/assets/landingpage.png',
+      image: '/assets/project-images/cyber-guard.png',
       url: 'https://resplendent-sawine-828781.netlify.app/',
       description: 'A fast Next.js website with modern page composition, reusable sections, and production-ready responsive layout.',
       tech: ['Next.js', 'React.js', 'CSS']
     },
     {
       title: 'ÈLVORA',
-      category: 'e- commerch',
+      category: 'e-commerce ',
       image: '/assets/admindashboard.png',
       url: 'https://client-zeta-five-75.vercel.app/',
+      description: 'A client-facing React application deployed on Vercel with component-based UI, responsive views, and polished frontend flow.',
+      tech: ['React.js', 'Vercel', 'CSS']
+    },
+    {
+      title: 'Furnito Furnitur',
+      category: 'e-commerce ',
+      image: '/assets/project-images/furniro-furnitur.png',
+      url: "https://fitarsiam377.github.io/furniro-e-commerce-website-/",
       description: 'A client-facing React application deployed on Vercel with component-based UI, responsive views, and polished frontend flow.',
       tech: ['React.js', 'Vercel', 'CSS']
     }
@@ -160,21 +168,17 @@ const PortfolioSlider = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-dark-bg/40 to-transparent opacity-90 group-hover:via-dark-bg/60 transition-all duration-300" />
                 </div>
 
-                {/* Hover Reveal Actions */}
-                <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+                {/* Live Link */}
+                <div className="absolute top-4 right-4 z-20">
                   <a
-                    href="#"
-                    className="p-2 bg-dark-bg/85 backdrop-blur-md rounded-lg text-white hover:text-neon-green border border-white/10 hover:border-neon-green/30 shadow-md transition-all duration-300"
-                    title="View details"
+                    href={proj.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-dark-bg/85 px-3 py-2 text-[10px] font-bold uppercase tracking-wider text-white shadow-md backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-neon-green/40 hover:bg-neon-green hover:text-dark-bg hover:shadow-neon-green/20"
+                    title={`Open ${proj.title}`}
                   >
-                    <FiEye className="w-4 h-4" />
-                  </a>
-                  <a
-                    href="#"
-                    className="p-2 bg-dark-bg/85 backdrop-blur-md rounded-lg text-white hover:text-neon-green border border-white/10 hover:border-neon-green/30 shadow-md transition-all duration-300"
-                    title="Live preview"
-                  >
-                    <FiExternalLink className="w-4 h-4" />
+                    <span>Live Link</span>
+                    <FiArrowUpRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </a>
                 </div>
 

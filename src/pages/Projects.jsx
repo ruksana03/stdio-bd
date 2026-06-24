@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: 'Mans Premium apperience',
       category: 'E-commerch',
-      image: '/assets/florafit.png',
+      image: '/assets/project-images/flora-fit.png',
       url: 'https://florafit.netlify.app/',
       description: 'A clean footwear brand website with responsive product sections, stylish visual presentation, and simple conversion-focused layout.',
       tech: ['HTML5', 'CSS3', 'Bootstrap']
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: 'JustHome Real Estate',
       category: 'Business',
-      image: '/assets/business.png',
+      image: '/assets/project-images/justhome.png',
       url: 'https://justhomereal.netlify.app/',
       description: 'A real estate business website designed to present property listings, trusted service details, and lead-focused contact actions.',
       tech: ['HTML5', 'CSS3', 'Bootstrap']
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: 'Portfolio Website',
       category: 'Portfolio',
-      image: '/assets/siamport.png',
+      image: '/assets/project-images/portfolio.png',
       url: 'https://fitarsiamportfolio.netlify.app/',
       description: 'A personal developer portfolio showcasing skills, project work, contact details, and a polished responsive presentation.',
       tech: ['HTML5', 'CSS3', 'Bootstrap']
@@ -34,7 +34,7 @@ const Projects = () => {
     {
       title: 'NuriGlow Store BD',
       category: 'E-Commerce',
-      image: '/assets/e commerce.png',
+      image: '/assets/project-images/nuriglow.png',
       url: 'https://nuriglow-store-bd.web.app/',
       description: 'A React-powered online store for beauty and skincare products with product browsing, storefront UI, and shopping-focused flow.',
       tech: ['React.js', 'Firebase', 'CSS']
@@ -43,7 +43,7 @@ const Projects = () => {
     {
       title: 'InnovateEd',
       category: 'Educational website ',
-      image: '/assets/premium.png',
+      image: '/assets/project-images/innovated-bd.png',
       url: 'https://innavated.web.app/',
       description: 'A modern education platform interface with React, Redux state flow, responsive Tailwind styling, and structured learning content.',
       tech: ['React.js', 'Redux', 'Tailwind CSS']
@@ -51,15 +51,15 @@ const Projects = () => {
     {
       title: 'Bigspring Business Platform',
       category: 'Business',
-      image: '/assets/businesspack.png',
+      image: '/assets/project-images/bigspring-business.png',
       url: 'https://lucent-biscuit-173f0a.netlify.app/',
       description: 'A Next.js business platform built for corporate presentation, service storytelling, and polished marketing page performance.',
       tech: ['Next.js', 'Tailwind CSS']
     },
     {
-      title: 'BUBT academy',
+      title: 'BUBT academia',
       category: 'Educational',
-      image: '/assets/figmatohtml.png',
+      image: '/assets/project-images/bubt-academia.png',
       url: 'https://fitarsiam377.github.io/BUBT-Academia-Project-Prototype-/',
       description: 'A Figma-inspired UI implementation converted into responsive HTML, Tailwind CSS, and JavaScript sections.',
       tech: ['HTML5', 'CSS3', 'Tailwind CSS', 'JavaScript', 'Figma']
@@ -67,7 +67,7 @@ const Projects = () => {
     {
       title: 'CyberGuard',
       category: 'Business',
-      image: '/assets/landingpage.png',
+      image: '/assets/project-images/cyber-guard.png',
       url: 'https://resplendent-sawine-828781.netlify.app/',
       description: 'A fast Next.js website with modern page composition, reusable sections, and production-ready responsive layout.',
       tech: ['Next.js', 'React.js', 'CSS']
@@ -77,6 +77,14 @@ const Projects = () => {
       category: 'e-commerce ',
       image: '/assets/admindashboard.png',
       url: 'https://client-zeta-five-75.vercel.app/',
+      description: 'A client-facing React application deployed on Vercel with component-based UI, responsive views, and polished frontend flow.',
+      tech: ['React.js', 'Vercel', 'CSS']
+    },
+    {
+      title: 'Furnito Furnitur',
+      category: 'e-commerce ',
+      image: '/assets/project-images/furniro-furnitur.png',
+      url: "https://fitarsiam377.github.io/furniro-e-commerce-website-/",
       description: 'A client-facing React application deployed on Vercel with component-based UI, responsive views, and polished frontend flow.',
       tech: ['React.js', 'Vercel', 'CSS']
     }
