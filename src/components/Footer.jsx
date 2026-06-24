@@ -11,7 +11,7 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-12">
-          
+
           {/* Logo & Description */}
           <div className="lg:col-span-4 flex flex-col items-start text-left">
             <Link to="/" className="flex items-center gap-2 mb-5">
@@ -22,7 +22,7 @@ const Footer = () => {
             <p className="text-white/50 text-sm leading-relaxed mb-6 font-sans">
               Next-generation digital studio serving state-of-the-art UI/UX, responsive layouts, web application developments, and premium brand designs. We turn visions into high-end web products.
             </p>
-            
+
             {/* Contact Details */}
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-3 text-white/60 hover:text-neon-green text-sm transition-colors duration-300">
@@ -45,7 +45,7 @@ const Footer = () => {
             <h4 className="text-xs font-bold text-white uppercase tracking-widest mb-6">Explore</h4>
             <ul className="flex flex-col gap-3 text-sm">
               <li>
-                <Link to="/" className="text-white/50 hover:text-neon-green transition-colors duration-300">Stdio BD (Home)</Link>
+                <Link to="/" className="text-white/50 hover:text-neon-green transition-colors duration-300">Stdio BD</Link>
               </li>
               <li>
                 <Link to="/about" className="text-white/50 hover:text-neon-green transition-colors duration-300">About Us</Link>
@@ -91,7 +91,7 @@ const Footer = () => {
                 Join
               </button>
             </div>
-            
+
             {/* Social Icons */}
             <div className="flex gap-4 mt-6">
               <a href="#" className="p-2 bg-white/5 hover:bg-neon-green/10 text-white/60 hover:text-neon-green rounded-lg border border-white/10 hover:border-neon-green/30 transition-all">

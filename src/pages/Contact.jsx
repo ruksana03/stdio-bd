@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <div className="w-full min-h-screen text-white bg-dark-bg font-sans pt-28 pb-16">
-      
+
       {/* Header */}
       <section className="relative py-16 overflow-hidden circuit-bg">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-neon-green/2 rounded-full filter blur-[120px] pointer-events-none" />
@@ -53,7 +53,7 @@ const Contact = () => {
       {/* Main Form Section */}
       <section className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-          
+
           {/* Left info column */}
           <div className="lg:col-span-5 flex flex-col justify-between text-left">
             <div>
@@ -92,7 +92,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-white/40 mb-1">Email Inquiry</h4>
-                    <p className="text-sm text-white font-semibold">fitarsiam@gmail.com</p>
+                    <p className="text-sm text-white font-semibold">stdiobd@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Contact = () => {
           {/* Right form column */}
           <div className="lg:col-span-7">
             <div className="glassmorphism rounded-2xl p-8 md:p-10 border border-white/10 shadow-2xl relative overflow-hidden">
-              
+
               {submitted ? (
                 <div className="py-16 text-center flex flex-col items-center justify-center">
                   <div className="p-4 bg-neon-green/10 border border-neon-green/20 rounded-full text-neon-green mb-6 animate-bounce">
@@ -129,7 +129,7 @@ const Contact = () => {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="text-left flex flex-col gap-6 relative z-10">
-                  
+
                   {/* Name field */}
                   <div>
                     <label className="block text-[10px] uppercase font-bold text-white/60 tracking-wider mb-2 font-sans">Full Name</label>

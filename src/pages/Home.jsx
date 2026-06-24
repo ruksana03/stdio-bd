@@ -31,14 +31,14 @@ const Home = () => {
 
   return (
     <div className="w-full min-h-screen text-white bg-dark-bg font-sans">
-      
+
       {/* 1. Hero Section */}
       <Hero />
 
       {/* 2. Infinite Tech Slider Ticker */}
-      <div className="bg-white/[0.02] border-y border-white/5 py-4 overflow-hidden relative z-20">
+      {/* <div className="bg-white/[0.02] border-y border-white/5 py-4 overflow-hidden relative z-20">
         <div className="flex whitespace-nowrap animate-[marquee_25s_linear_infinite]">
-          {/* Loop twice for seamless scrolling */}
+        
           {[...techStack, ...techStack].map((tech, idx) => (
             <div key={idx} className="flex items-center gap-2 mx-8 text-xs font-bold uppercase tracking-widest text-white/70 font-mono">
               <FiCode className="w-4 h-4 text-neon-green" />
@@ -47,21 +47,21 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* 3. Creative About Block */}
       <section className="py-24 bg-dark-bg relative">
         <div className="absolute inset-0 circuit-bg opacity-10 pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
+
           {/* Left Grid Graphics */}
           <div className="grid grid-cols-2 gap-4 relative">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-neon-green/5 rounded-full filter blur-3xl pointer-events-none" />
-            
+
             <div className="glassmorphism-card p-6 rounded-2xl flex flex-col justify-between h-44 border-neon-green/20">
               <FiBriefcase className="w-8 h-8 text-neon-green" />
               <div>
-                <h3 className="text-2xl font-bold text-white">40+</h3>
+                <h3 className="text-2xl font-bold text-white">10+</h3>
                 <p className="text-xs text-white/50 tracking-wide uppercase mt-1">Websites Delivered</p>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Home = () => {
                 <p className="text-xs text-white/50 tracking-wide uppercase mt-1">Client Satisfaction</p>
               </div>
             </div>
-            
+
             <div className="col-span-2 glassmorphism-card p-6 rounded-2xl flex items-center gap-6 mt-4 border-white/5">
               <img
                 src="/assets/rimon.png"
@@ -122,7 +122,7 @@ const Home = () => {
       {/* 6. Testimonials Section */}
       <section className="py-24 bg-dark-bg border-t border-white/5 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold tracking-widest text-neon-green uppercase border border-neon-green/20 bg-neon-green/5 px-3 py-1 rounded-full">
               Client Feedback
@@ -164,7 +164,7 @@ const Home = () => {
 
       <section className="py-24 bg-[#0a0c14] border-t border-white/5 relative overflow-hidden text-center">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-neon-green/2 rounded-full filter blur-[150px] pointer-events-none" />
-        
+
         <div className="max-w-4xl mx-auto px-6 relative z-10">
           <h2 className="text-3xl md:text-5xl font-sans font-bold text-white mb-6">
             Ready to Build Something <br />

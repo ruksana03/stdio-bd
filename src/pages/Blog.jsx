@@ -9,7 +9,7 @@ const Blog = () => {
       category: 'Engineering',
       date: 'June 22, 2026',
       readTime: '4 min read',
-      author: 'Siam Ahmed',
+      author: 'Stdio BD',
       image: '/assets/webspeed.png'
     },
     {
@@ -18,7 +18,7 @@ const Blog = () => {
       category: 'Design',
       date: 'June 19, 2026',
       readTime: '6 min read',
-      author: 'Rimon Ahmed',
+      author: 'Stdio BD',
       image: '/assets/admindashboard.png'
     },
     {
@@ -27,14 +27,14 @@ const Blog = () => {
       category: 'Marketing',
       date: 'June 12, 2026',
       readTime: '5 min read',
-      author: 'Tanvir Ahmed',
+      author: 'Stdiobd',
       image: '/assets/seo.png'
     }
   ];
 
   return (
     <div className="w-full min-h-screen text-white bg-dark-bg font-sans pt-28 pb-16">
-      
+
       {/* Header */}
       <section className="relative py-16 overflow-hidden circuit-bg">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-neon-green/5 rounded-full filter blur-[120px] pointer-events-none" />
@@ -78,7 +78,7 @@ const Blog = () => {
               {/* Text details */}
               <div className="p-6 text-left flex-grow flex flex-col justify-between">
                 <div>
-                  
+
                   {/* Meta items */}
                   <div className="flex items-center gap-4 text-[10px] text-white/40 mb-4 font-mono">
                     <span className="flex items-center gap-1">
@@ -104,7 +104,7 @@ const Blog = () => {
                     <FiUser className="w-3.5 h-3.5 text-neon-green" />
                     <span>{post.author}</span>
                   </span>
-                  
+
                   <a
                     href="#"
                     className="text-xs font-semibold text-white/80 hover:text-neon-green transition-colors flex items-center gap-1"
