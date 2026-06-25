@@ -4,7 +4,7 @@ import { FiEye, FiExternalLink } from 'react-icons/fi';
 const Projects = () => {
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'Business', 'E-commerch', 'Landing Page', 'Portfolio'];
+  const categories = ['All', 'Business', 'E-commerch', 'Landing Page', 'Portfolio', 'Educational'];
 
   const projects = [
     {
@@ -16,12 +16,12 @@ const Projects = () => {
       tech: ['HTML5', 'CSS3', 'Bootstrap']
     },
     {
-      title: 'JustHome Real Estate',
+      title: 'Homeland',
       category: 'Business',
-      image: '/assets/project-images/justhome.png',
-      url: 'https://justhomereal.netlify.app/',
+      image: '/assets/project-images/homeland.png',
+      url: 'https://homeland-sigma.vercel.app/',
       description: 'A real estate business website designed to present property listings, trusted service details, and lead-focused contact actions.',
-      tech: ['HTML5', 'CSS3', 'Bootstrap']
+      tech: ['HTML5', 'CSS3', 'Taliwind', 'js']
     },
     {
       title: 'Portfolio Website',
@@ -33,7 +33,7 @@ const Projects = () => {
     },
     {
       title: 'NuriGlow Store BD',
-      category: 'E-Commerce',
+      category: 'E-commerch',
       image: '/assets/project-images/nuriglow.png',
       url: 'https://nuriglow-store-bd.web.app/',
       description: 'A React-powered online store for beauty and skincare products with product browsing, storefront UI, and shopping-focused flow.',
@@ -42,7 +42,7 @@ const Projects = () => {
 
     {
       title: 'InnovateEd',
-      category: 'Educational website ',
+      category: 'Educational',
       image: '/assets/project-images/innovated-bd.png',
       url: 'https://innavated.web.app/',
       description: 'A modern education platform interface with React, Redux state flow, responsive Tailwind styling, and structured learning content.',
@@ -74,7 +74,7 @@ const Projects = () => {
     },
     {
       title: 'ÈLVORA',
-      category: 'e-commerce ',
+      category: 'E-commerch',
       image: '/assets/admindashboard.png',
       url: 'https://client-zeta-five-75.vercel.app/',
       description: 'A client-facing React application deployed on Vercel with component-based UI, responsive views, and polished frontend flow.',
@@ -82,7 +82,7 @@ const Projects = () => {
     },
     {
       title: 'Furnito Furnitur',
-      category: 'e-commerce ',
+      category: 'E-commerch',
       image: '/assets/project-images/furniro-furnitur.png',
       url: "https://fitarsiam377.github.io/furniro-e-commerce-website-/",
       description: 'A client-facing React application deployed on Vercel with component-based UI, responsive views, and polished frontend flow.',

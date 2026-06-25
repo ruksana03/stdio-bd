@@ -21,12 +21,12 @@ const PortfolioSlider = () => {
       tech: ['HTML5', 'CSS3', 'Bootstrap']
     },
     {
-      title: 'JustHome Real Estate',
+      title: 'Homeland',
       category: 'Business',
-      image: '/assets/project-images/justhome.png',
-      url: 'https://justhomereal.netlify.app/',
+      image: '/assets/project-images/homeland.png',
+      url: 'https://homeland-sigma.vercel.app/',
       description: 'A real estate business website designed to present property listings, trusted service details, and lead-focused contact actions.',
-      tech: ['HTML5', 'CSS3', 'Bootstrap']
+      tech: ['HTML5', 'CSS3', 'Taliwind', 'js']
     },
     {
       title: 'Portfolio Website',
@@ -47,7 +47,7 @@ const PortfolioSlider = () => {
 
     {
       title: 'InnovateEd',
-      category: 'Educational website ',
+      category: 'Educational ',
       image: '/assets/project-images/innovated-bd.png',
       url: 'https://innavated.web.app/',
       description: 'A modern education platform interface with React, Redux state flow, responsive Tailwind styling, and structured learning content.',
@@ -141,21 +141,10 @@ const PortfolioSlider = () => {
             }}
             pagination={{ clickable: true }}
             navigation={true}
-            className="w-full max-w-[1000px] pb-14"
-            breakpoints={{
-              320: {
-                slidesPerView: 1,
-              },
-              640: {
-                slidesPerView: 2,
-              },
-              1024: {
-                slidesPerView: 2.2,
-              }
-            }}
+            className="w-full max-w-[1000px] pb-14 px-3 sm:px-0"
           >
             {projects.map((proj, idx) => (
-              <SwiperSlide key={idx} className="w-[320px] sm:w-[450px] aspect-[4/3] rounded-2xl overflow-hidden glassmorphism border border-white/10 group relative select-none">
+              <SwiperSlide key={idx} className="!w-[82vw] max-w-[450px] sm:!w-[450px] aspect-[4/3] rounded-2xl overflow-hidden glassmorphism border border-white/10 group relative select-none">
 
                 {/* Image Wrap */}
                 <div className="w-full h-full relative overflow-hidden">
